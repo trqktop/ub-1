@@ -1,0 +1,9 @@
+.page {
+    display: block;
+    max-width: 100vw;
+    overflow: scroll;
+    margin: 0 auto;
+    min-height: fit-content;
+    position: relative;
+    padding: 0;
+}

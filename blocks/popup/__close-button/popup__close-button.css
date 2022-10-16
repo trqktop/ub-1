@@ -1,0 +1,6 @@
+.popup__close-button {
+    border: none;
+    background-color: transparent;
+    color: #0848C0;
+    cursor: pointer;
+}

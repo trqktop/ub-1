@@ -1,0 +1,11 @@
+@font-face {
+    src: url(../fonts/Montserrat-ExtraBold.ttf) format('truetype');
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+@font-face {
+    src: url(../fonts/PT_Sans-Web-Regular.ttf) format('truetype');
+    font-family: 'PT_Sans';
+    font-weight: 400;
+}

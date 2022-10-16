@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 задание</title>
+    <link href="./pages/index.css" rel="stylesheet">
+</head>
+
+<body class="page">
+    <header></header>
+    <main class="content">
+        <section class="section">
+            <button class="section__button">Открыть попап</button>
+        </section>
+    </main>
+    <footer></footer>
+    <!-- попап станьте нашим партнером, он же оверлей -->
+    <section class="popup" id="popupPartner">
+        <!-- контейнер -  попап станьте нашим партнером -->
+        <div class="popup__container">
+            <h3 class="popup__title">Стать партнером проекта</h3>
+            <!-- форма. отключил стандартную валидацию-->
+            <form class="popup__form" name="edit-form" action="#" novalidate>
+                <div class="popup__flex-container">
+                    <!-- первые 3 инпута обернул в флекс контейнер fildsets-aside , чтобы сдвинуть их в бок флексом  и разместить рядом инпут файла-->
+                    <div class="popup__error-fildsets-aside">
+                        <div class="popup__error-fieldset">
+                            <input class="popup__input" value="" placeholder="exaple" type="text"
+                                id="nameOrganizationInput" minlength="2" maxlength="30" name="organizationname"
+                                required>
+                            <label class="popup__input-label" for="organizationname"><span
+                                    class="popup__star-style">&#10033;</span> Название организации</label>
+                            <span class="popup__input-error nameOrganizationInput-error error"></span>
+                        </div>
+                        <div class="popup__error-fieldset">
+                            <input class="popup__input phone" value="" placeholder="+7(9xx)xxx-xx-xx" name="phone"
+                                id="phone" minlength="11" maxlength="16" required>
+                            <!-- pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" -->
+                            <label class="popup__input-label" for="organizationname"><span
+                                    class="popup__star-style">&#10033;</span> Телефон</label>
+                            <!--   minlength="10"maxlength="11"-->
+                            <span class="popup__input-error phone-error error"></span>
+                        </div>
+                        <div class="popup__error-fieldset">
+                            <input class="popup__input" value="" placeholder="exaple@hello.com" type="email"
+                                id="emailInput" name="organizationname" required>
+                            <label class="popup__input-label" for="organizationname"><span
+                                    class="popup__star-style">&#10033;</span> E-mail</label>
+                            <!--  minlength="2" maxlength="30" -->
+                            <span class="popup__input-error emailInput-error error"></span>
+                        </div>
+                    </div>
+
+                    <div class=" popup__error-fieldset-logo-background">
+                        <img class="popup__input-logo_clear-button" src="./images/Group 2394.svg"
+                            alt="Очистить содержимое">
+                        <input class="popup__input-logo" type="file" id="logo" name="logo" accept=".jpeg, .png"
+                            id="logo" required>
+                        <label class="popup__input-logo-label" for="logo">
+                            <span class="popup__star-style">&#10033;</span> Логотип (jpeg,png)</label>
+                        <!--  minlength="2" maxlength="30" -->
+                        <!-- <span class="popup__input-error logo-error error"></span> -->
+                        <label for='logo' class="popup__input-logo-custom-styles">
+                            <img class="popup__input-logo-custom-pic" alt='Логотип' src="./images/logo_svg.svg">
+                            <span class="logo-error error popup__input-logo-custom-text">Выберите файл</span>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="popup__error-fieldset">
+                    <select value="" name="field" class="popup__input" id="fieldInput">
+                        <option value="Пункт 1">Экология</option>
+                        <option value="Пункт 2">Пункт 2</option>
+                    </select>
+                    <label class="popup__input-label" for="field"><span class="popup__star-style">&#10033;</span>
+                        Направление</label>
+                    <!--  Select -->
+                    <span class="popup__input-error fieldInput-error error"></span>
+                </div>
+
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="url"
+                        name="url" minlength="4" maxlength="30">
+                    <img class="popup__input-icon" src="./images/earth-pic.svg" alt="логотип">
+                    <span class="popup__input-error url-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="vk"
+                        name="vk" minlength="6" maxlength="30">
+                    <img class="popup__input-icon" src="./images/XMLID 807.svg" alt="логотип">
+                    <span class="popup__input-error vk-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="ok"
+                        name="ok" minlength="6" maxlength="30">
+                    <img class="popup__input-icon" src="./images/odnoklassniki 3.svg" alt="логотип">
+                    <span class="popup__input-error ok-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="fb"
+                        name="fb" minlength="6" maxlength="30">
+                    <img class="popup__input-icon" src="./images/fb.svg" alt="логотип">
+                    <span class="popup__input-error fb-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="inst"
+                        name="inst" minlength="6" maxlength="30">
+                    <img class="popup__input-icon" src="./images/Instagram_Color_icon-icons.com_71811 1.svg"
+                        alt="логотип">
+                    <span class="popup__input-error inst-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input popup__input_social" value="" placeholder="" type="text" id="youtube"
+                        name="youtube" minlength="6" maxlength="30">
+                    <img class="popup__input-icon" src="./images/XMLID 823.svg" alt="логотип">
+                    <span class="popup__input-error youtube-error error"></span>
+                </div>
+                <div class="popup__error-fieldset">
+                    <input class="popup__input " value="" placeholder="" type="text" id="DirectorInput" minlength="3"
+                        maxlength="30" name="DirectorInput">
+                    <label class="popup__input-label" for="DirectorInput"> Руководителя</label>
+                    <span class="popup__input-error DirectorInput-error error"></span>
+                </div>
+
+                <button type="submit" class="popup__submit-button popup__submit-button_disabled " disabled>Стать
+                    партнёром проекта</button>
+                <button class="popup__close-button" type="reset">Отменить</button>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="./components/index.js"></script>
+</body>
+
+</html>

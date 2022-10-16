@@ -1,0 +1,9 @@
+.popup__input-logo-custom-text {
+    display: block;
+    max-width: 80px;
+    text-align: center;
+    margin-top: 7px;
+    text-decoration: underline 1px white solid;
+    font-size: 19px;
+    line-height: 28px;
+}

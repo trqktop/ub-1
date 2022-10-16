@@ -1,0 +1,18 @@
+
+.section__button {
+    margin-bottom: 1649px;
+    background-color: transparent;
+    border: 1px solid #E5266E;
+    color: #E5266E;
+    border-radius: 4px;
+    width: 147px;
+    height: 48px;
+    margin-top: 300px;
+    margin-left: 300px;
+    transition: all .5s linear;
+}
+
+.section__button:hover {
+    opacity: .5;
+    cursor: pointer;
+}

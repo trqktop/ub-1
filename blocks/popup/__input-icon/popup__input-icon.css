@@ -1,0 +1,9 @@
+.popup__input-icon {
+    position: absolute;
+    object-fit: contain;
+    object-position: center;
+    width: 19px;
+    height: 19px;
+    right: 17.8px;
+    top: calc(50% - 18px / 2);
+}

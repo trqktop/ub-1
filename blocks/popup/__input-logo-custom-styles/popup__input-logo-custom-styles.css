@@ -1,0 +1,16 @@
+
+
+.popup__input-logo-custom-styles {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}

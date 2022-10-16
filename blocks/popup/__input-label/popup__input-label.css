@@ -1,0 +1,10 @@
+.popup__input-label {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    color: #6A6E72;
+    top: calc(50% - 16px/2 - 12px);
+}

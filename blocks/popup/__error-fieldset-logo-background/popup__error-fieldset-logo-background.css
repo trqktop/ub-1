@@ -1,0 +1,20 @@
+.popup__error-fieldset-logo-background {
+    margin: 0;
+    padding: 0;
+    max-width: 163px;
+    width: 100%;
+    max-height: 163px;
+    background-image: url('../../../images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    border-radius: 100%;
+    position: relative;
+    margin-top: 71.8px;
+    transition: opacity .4s linear;
+}
+
+.popup__error-fieldset-logo-background:hover {
+    opacity: .8;
+}

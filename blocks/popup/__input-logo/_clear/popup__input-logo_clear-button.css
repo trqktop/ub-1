@@ -1,0 +1,15 @@
+
+.popup__input-logo_clear-button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .2s linear;
+    border-radius: 100%;
+}
+
+.popup__input-logo_clear-button:hover {
+    transform: scale(1.1);
+    outline: 1px grey solid;
+}
