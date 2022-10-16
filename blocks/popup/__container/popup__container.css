@@ -9,3 +9,17 @@
     margin: 0;
     padding: 53px 98px;
 }
+
+
+@media screen and (max-width:800px) {
+    .popup__container {
+        padding: 50px;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .popup__container {
+        padding: 20px;
+    }
+}

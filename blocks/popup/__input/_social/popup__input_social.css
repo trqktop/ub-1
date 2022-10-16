@@ -1,4 +1,5 @@
 
 .popup__input_social {
     padding: 16px;
+    box-sizing: border-box;
 }

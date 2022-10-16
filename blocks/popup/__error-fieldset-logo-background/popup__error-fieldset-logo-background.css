@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     max-width: 163px;
-    width: 100%;
     max-height: 163px;
     background-image: url('../../../images/logo.png');
     background-position: center;
@@ -17,4 +16,12 @@
 
 .popup__error-fieldset-logo-background:hover {
     opacity: .8;
+}
+
+@media screen and (max-width:550px) {
+    .popup__error-fieldset-logo-background {
+        display: block;
+        order: -1;
+        margin: 60px auto;
+    }
 }

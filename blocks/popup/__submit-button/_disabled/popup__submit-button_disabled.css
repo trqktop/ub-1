@@ -1,6 +1,7 @@
 
 .popup__submit-button_disabled {
     background-color: rgb(235, 235, 235);
+    border: none;
     color: grey;
     cursor: default;
     opacity: 1;

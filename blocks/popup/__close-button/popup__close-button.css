@@ -4,3 +4,7 @@
     color: #0848C0;
     cursor: pointer;
 }
+
+.popup__close-button:hover{
+    opacity: .7;
+}
